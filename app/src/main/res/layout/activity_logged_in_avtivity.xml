@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center_vertical"
+    tools:context=".LoggedInAvtivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="7dp"
+        app:cardCornerRadius="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Welcome!"
+                android:textSize="28sp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Name : Mudit"
+                android:textSize="28sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/Phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Phone : Demo Phone"
+                android:textSize="28sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/email_Logged_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Email : Demo email"
+                android:textSize="28sp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/Log_Out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Log out"
+        android:textStyle="bold"
+        android:backgroundTint="#454040"
+        android:textSize="20sp">
+
+    </Button>
+
+</LinearLayout>
